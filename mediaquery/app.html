@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./app.css">
+    <title>Form</title>
+</head>
+<body>
+    <h2>registration portal</h2>
+  
+    <form >
+<div class="wrapper">
+    <label for="firstNam" 
+    font-size: 20px;" >First Name:</label>
+<input name="firstName" placeholder="enter your name" type="text" required> 
+
+</div>
+<div class="wrapper">
+    <label for="lastName" >Last Name:</label>
+<input name="lastName" type="text"  required>
+
+</div>
+
+<div class="wrapper">
+<label for="emailAddress">Enter Email</label>
+<input type="email" name="emailAddress">
+</div>
+
+<div class="wrapper">
+ <label for="gender">Choose Gender</label> 
+ 
+<span>Male:</span><input type="radio" value="male" name="gender"> 
+<span>Female:</span><input name="gender" value="female" type="radio"> 
+</div>
+<div>
+<label for="file">Upload Document</label>
+<input type="file" name="file" >
+</div>
+
+<div class="wrapper">
+<label for="dateOfBirth">Date Of Birth</label>
+<input type="date" name="dateOfBirth" id="">
+
+</div>
+
+<div class="wrapper">
+<label for="states">Choose Your State</label>
+<select name="states" >
+    <option> --Choose state--</option>
+  <option value="imo"> Imo </option>
+  <option value="anambra"> Anambra </option>
+  <option value="delta"> Delta</option>
+  <option value="rivers"> Rivers state</option>
+  <option value="lagos"> Lagos </option>
+
+</select>
+</div>
+
+<div class="subjects">
+<label for="subject">Choose Subjects</label>
+
+<div class="item">
+    <span>Maths:</span>
+<input type="checkbox" value="maths" name="subject" >
+</div>
+
+<div class="item">
+    <span>English:</span>
+<input type="checkbox" value="english" name="subject" >
+</div>
+
+<div class="item">
+    <span>Geography:</span>
+<input type="checkbox" value="geography" name="subject" >
+</div>
+
+<div class="item">
+    <span>Phyisics:</span>
+<input type="checkbox" value="physics" name="subject" >
+</div>
+
+<div class="item">
+    <span>FurtherMathematics:</span>
+<input type="checkbox" value="furtherMathematics" name="subject" >
+</div>
+</div>
+<button>Submit</button>
+    </form>
+</body>
+</html>
